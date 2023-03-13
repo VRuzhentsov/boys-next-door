@@ -1,0 +1,54 @@
+version: "3"
+
+services:
+  boys-next-door.win:
+    image: boys-next-door.win
+    container_name: "boys-next-door.win"
+    restart: always
+    build:
+        context: ./boys-next-door
+        dockerfile: ./Dockerfile
+    ports:
+      - "80:80"
+    environment:
+      VIRTUAL_HOST: boys-next-door.win
+    volumes:
+      - ${HOME}/boys-next-door/static:/app
+    networks:
+      - boys-next-door-network
+
+  fvtt:
+    container_name: Fvtt
+    user: node
+    build:
+      context: ./foundry
+      dockerfile: ./foundry/Dockerfile
+    image: fvtt:3.0
+    volumes:
+      - ${HOME}/foundry/app:/home/node/app
+      - ${HOME}/foundry/data:/home/node/data
+    ports:
+      - "30000:30000"
+    environment:
+      VIRTUAL_HOST: foundry.boys-next-door.win
+    networks:
+      - boys-next-door-network
+
+  valheim:
+    image: ghcr.io/lloesche/valheim-server
+    cap_add:
+      - sys_nice
+    volumes:
+      - ${HOME}/valheim-server/config:/config
+      - ${HOME}/valheim-server/data:/opt/valheim
+    ports:
+      - "2456-2457:2456-2457/udp"
+      - "9001:9001/tcp"
+    env_file:
+      - ${HOME}/valheim-server/valheim.env
+    restart: always
+    stop_grace_period: 2m
+
+networks:
+  boys-next-door-network:
+    driver: bridge
