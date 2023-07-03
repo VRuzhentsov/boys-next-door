@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="FinSCM">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Hetzner">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/will/boys-next-door" local="$PROJECT_DIR$/boys-next-door" web="/" />
+            <mapping deploy="/home/will/foundry" local="$PROJECT_DIR$/foundry" web="/" />
+            <mapping deploy="/home/will" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/home/will/.cache" />
+            <excludedPath path="/home/will/.config" />
+            <excludedPath path="/home/will/.docker" />
+            <excludedPath path="/home/will/.ssh" />
+            <excludedPath path="/home/will/.bash_history" />
+            <excludedPath path="/home/will/.bash_logout" />
+            <excludedPath path="/home/will/.bashrc" />
+            <excludedPath path="/home/will/.cloud-locale-test.skip" />
+            <excludedPath path="/home/will/.profile" />
+            <excludedPath path="/home/will/.sudo_as_admin_successful" />
+            <excludedPath path="/home/will/valheim-server/data" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

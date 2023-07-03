@@ -1,4 +1,4 @@
-version: "3.9"
+version: "3.7"
 
 services:
   boys-next-door.win:
@@ -48,6 +48,14 @@ services:
       - ${HOME}/valheim-server/valheim.env
     restart: always
     stop_grace_period: 2m
+
+  dis-bot:
+    image: vruzhentsov/boys-next-door-dis-bot
+    restart: always
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./dis-bot/.env
 
 networks:
   boys-next-door-network:
