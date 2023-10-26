@@ -1,0 +1,888 @@
+{
+  "activateSkinCapeForUserVersion": false,
+  "skipHashsumValidation": false,
+  "additionalFiles": [
+    {
+      "sha1": "0dd501541eb617a551187ad7d6130623989584dd",
+      "size": 11637719,
+      "path": "libraries/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-slim.jar"
+    },
+    {
+      "sha1": "b78d6d3c3160407bd7a6da30b345dd2b8b29da34",
+      "size": 10007043,
+      "path": "libraries/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-extra.jar"
+    },
+    {
+      "sha1": "8e8c9be5dc27802caba47053d4fdea328f7f89bd",
+      "size": 7236064,
+      "path": "libraries/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-mappings.txt",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-mappings.txt"
+    },
+    {
+      "sha1": "24d05fdd07a59ff816c1b85bf756d13ccc771be9",
+      "size": 17332865,
+      "path": "libraries/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraft/client/1.19.2-20220805.130853/client-1.19.2-20220805.130853-srg.jar"
+    },
+    {
+      "sha1": "c17ad06d97110b87cd352b5d4733adf3fdeda4ce",
+      "size": 5290671,
+      "path": "libraries/net/minecraftforge/forge/1.19.2-43.2.1/forge-1.19.2-43.2.1-client.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraftforge/forge/1.19.2-43.2.1/forge-1.19.2-43.2.1-client.jar"
+    },
+    {
+      "sha1": "315d515883e92287365c4fc9acd85f4a93a529e6",
+      "size": 2601103,
+      "path": "libraries/net/minecraftforge/forge/1.19.2-43.2.1/forge-1.19.2-43.2.1-universal.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraftforge/forge/1.19.2-43.2.1/forge-1.19.2-43.2.1-universal.jar"
+    },
+    {
+      "sha1": "d034e4ebf37373f12111b320b18ce97b28fb5a03",
+      "size": 112529,
+      "path": "libraries/net/minecraftforge/fmlcore/1.19.2-43.2.1/fmlcore-1.19.2-43.2.1.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraftforge/fmlcore/1.19.2-43.2.1/fmlcore-1.19.2-43.2.1.jar"
+    },
+    {
+      "sha1": "d38433aa99ec08bd1696987e87df34f4dfca0758",
+      "size": 16346,
+      "path": "libraries/net/minecraftforge/javafmllanguage/1.19.2-43.2.1/javafmllanguage-1.19.2-43.2.1.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraftforge/javafmllanguage/1.19.2-43.2.1/javafmllanguage-1.19.2-43.2.1.jar"
+    },
+    {
+      "sha1": "cc99ae828aa82c53ee25bcbe369d4b23158d5146",
+      "size": 4983,
+      "path": "libraries/net/minecraftforge/mclanguage/1.19.2-43.2.1/mclanguage-1.19.2-43.2.1.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraftforge/mclanguage/1.19.2-43.2.1/mclanguage-1.19.2-43.2.1.jar"
+    },
+    {
+      "sha1": "9f87b1c883d844dd3abde6bbcff430abf379d7fa",
+      "size": 7374,
+      "path": "libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.2.1/lowcodelanguage-1.19.2-43.2.1.jar",
+      "url": "http://res.tlauncher.org/unb/libraries/cache/net/minecraftforge/lowcodelanguage/1.19.2-43.2.1/lowcodelanguage-1.19.2-43.2.1.jar"
+    }
+  ],
+  "tlauncherVersion": 0,
+  "modpack": {
+    "modpackMemory": false,
+    "memory": 0,
+    "id": -263517933631200,
+    "name": "Boys",
+    "favorite": false,
+    "version": {
+      "mods": [
+        {
+          "stateGameElement": "active",
+          "id": 10000020,
+          "name": "TL skin and cape",
+          "favorite": false,
+          "version": {
+            "id": 11002225,
+            "name": "1.27",
+            "metadata": {
+              "sha1": "e908d5e7378608060d1b76d6b2e3488ee71ef35a",
+              "size": 624975,
+              "path": "mods/tl_skin_cape_forge_1.19_1.19.2-1.27.jar",
+              "url": "/mods/20140325/11002224/tl_skin_cape_forge_1.19_1.19.2-1.27.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 227639,
+          "name": "The Twilight Forest",
+          "favorite": false,
+          "version": {
+            "id": 4075841,
+            "name": "Twilight Forest - MC 1.19.2 - 4.2.1468",
+            "metadata": {
+              "sha1": "d1f095686153eed9a95a6ca5559d647086c41d44",
+              "size": 23563663,
+              "path": "mods/twilightforest-1.19.2-4.2.1468-universal.jar",
+              "url": "/mods/227639/4075841/twilightforest-1.19.2-4.2.1468-universal.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 9999999,
+          "name": "OptiFine",
+          "favorite": false,
+          "version": {
+            "id": 11002270,
+            "name": "OptiFine-1.19.2_HD_U_I1_pre4",
+            "metadata": {
+              "sha1": "9b93f347b574b25bc159d7905e55e180865684ae",
+              "size": 6430335,
+              "path": "mods/OptiFine-1.19.2_HD_U_I1_pre4.jar",
+              "url": "/mods/21097060/11002269/OptiFine-1.19.2_HD_U_I1_pre4.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 563928,
+          "name": "TerraBlender (Forge)",
+          "favorite": false,
+          "version": {
+            "id": 4205732,
+            "name": "TerraBlender Forge 1.19.2-2.0.1.136",
+            "metadata": {
+              "sha1": "62e8ed86eca71f9936be2519092ace11539acc5c",
+              "size": 96499,
+              "path": "mods/TerraBlender-forge-1.19.2-2.0.1.136.jar",
+              "url": "/mods/563928/4205732/TerraBlender-forge-1.19.2-2.0.1.136.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 220318,
+          "name": "Biomes O' Plenty",
+          "favorite": false,
+          "version": {
+            "id": 4128419,
+            "name": "1.19.2-17.1.2.492",
+            "metadata": {
+              "sha1": "2d4775f4de34946b9dc54af2aa921fe9b9d35534",
+              "size": 21401843,
+              "path": "mods/BiomesOPlenty-1.19.2-17.1.2.492.jar",
+              "url": "/mods/220318/4128419/BiomesOPlenty-1.19.2-17.1.2.492.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 563928,
+              "name": "TerraBlender (Forge)",
+              "gameEntityId": 563928,
+              "dependencyType": "required"
+            }
+          ],
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 398521,
+          "name": "Farmer's Delight",
+          "favorite": false,
+          "version": {
+            "id": 3999157,
+            "name": "1.2 - 1.19+",
+            "metadata": {
+              "sha1": "3052ebc183aaca383b8df1862fb924f63eae39f0",
+              "size": 2701111,
+              "path": "mods/FarmersDelight-1.19-1.2.0.jar",
+              "url": "/mods/398521/3999157/FarmersDelight-1.19-1.2.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "no_active",
+          "id": 32274,
+          "name": "JourneyMap",
+          "favorite": false,
+          "version": {
+            "id": 4160833,
+            "name": "journeymap-1.19.2-5.9.0beta5-forge",
+            "metadata": {
+              "sha1": "1575750e1f2981889c2c0d2c5827f0adf61fae11",
+              "size": 6997806,
+              "path": "mods/journeymap-1.19.2-5.9.0beta5-forge.jar",
+              "url": "/mods/32274/4160833/journeymap-1.19.2-5.9.0beta5-forge.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 226005,
+              "name": "JourneyMap Tools",
+              "gameEntityId": 226005,
+              "dependencyType": "required"
+            }
+          ],
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 306612,
+          "name": "Fabric API",
+          "favorite": false,
+          "version": {
+            "id": 3983748,
+            "name": "[1.19.2]  0.61.0+1.19.2",
+            "metadata": {
+              "sha1": "33bcdba60c1f4b201f8033da1a287de970928101",
+              "size": 1517325,
+              "path": "mods/fabric-api-0.61.0+1.19.2.jar",
+              "url": "/mods/306612/3983748/fabric-api-0.61.0+1.19.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 348521,
+          "name": "Cloth Config API (FabricForge)",
+          "favorite": false,
+          "version": {
+            "id": 3972423,
+            "name": "[Forge 1.19-1.19.2] v8.2.88",
+            "metadata": {
+              "sha1": "fbd645755abc0dbe5eb1adeb5e649835294a769f",
+              "size": 1151677,
+              "path": "mods/cloth-config-8.2.88-forge.jar",
+              "url": "/mods/348521/3972423/cloth-config-8.2.88-forge.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 349559,
+          "name": "FallingTree (Forge&Fabric)",
+          "favorite": false,
+          "version": {
+            "id": 3968312,
+            "name": "1.19.2-3.10.0",
+            "metadata": {
+              "sha1": "52d1a2d2eba71bb0257af18c5013b8fef9cf3961",
+              "size": 407197,
+              "path": "mods/FallingTree-1.19.2-3.10.0.jar",
+              "url": "/mods/349559/3968312/FallingTree-1.19.2-3.10.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 306612,
+              "name": "Fabric API",
+              "gameEntityId": 306612,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 308702,
+              "name": "Mod Menu",
+              "gameEntityId": 308702,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 348521,
+              "name": "Cloth Config API (FabricForge)",
+              "gameEntityId": 348521,
+              "dependencyType": "required"
+            }
+          ],
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 240633,
+          "name": "Inventory Sorter",
+          "favorite": false,
+          "version": {
+            "id": 3963662,
+            "name": "inventorysorter-1.19.2-21.0.4",
+            "metadata": {
+              "sha1": "ddac4a5e079539a49963ff220ad5be49876f61fa",
+              "size": 49523,
+              "path": "mods/inventorysorter-1.19.2-21.0.4.jar",
+              "url": "/mods/240633/3963662/inventorysorter-1.19.2-21.0.4.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 551453,
+          "name": "Farmer's Respite",
+          "favorite": false,
+          "version": {
+            "id": 4081312,
+            "name": "FarmersRespite-1.19-2.0",
+            "metadata": {
+              "sha1": "df109f2a9ea5a051a29cd3d393d1e098dc00a6fc",
+              "size": 493349,
+              "path": "mods/FarmersRespite-1.19-2.0.jar",
+              "url": "/mods/551453/4081312/FarmersRespite-1.19-2.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 398521,
+              "name": "Farmer's Delight",
+              "gameEntityId": 398521,
+              "dependencyType": "required"
+            }
+          ],
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 430652,
+          "name": "Frozen Up",
+          "favorite": false,
+          "version": {
+            "id": 4145146,
+            "name": "2.1.1-forge",
+            "metadata": {
+              "sha1": "df0bf4bd66bd539426d0d8311100171f68601cf2",
+              "size": 1906725,
+              "path": "mods/frozenup-1.19.2-2.1.1-forge.jar",
+              "url": "/mods/430652/4145146/frozenup-1.19.2-2.1.1-forge.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 609918,
+          "name": "Frozen Delight (A Farmer's Delight Add-on)",
+          "favorite": false,
+          "version": {
+            "id": 4031594,
+            "name": "Frozen_Delight_1.2.1_Forge_1.19.2",
+            "metadata": {
+              "sha1": "9f69a4bbb6ac89195c27cc71244dea0361ea7b71",
+              "size": 41441,
+              "path": "mods/Frozen_Delight_1.2.1_Forge_1.19.2.jar",
+              "url": "/mods/609918/4031594/Frozen_Delight_1.2.1_Forge_1.19.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 398521,
+              "name": "Farmer's Delight",
+              "gameEntityId": 398521,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 430652,
+              "name": "Frozen Up",
+              "gameEntityId": 430652,
+              "dependencyType": "required"
+            }
+          ],
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 342584,
+          "name": "Collective (Forge)",
+          "favorite": false,
+          "version": {
+            "id": 4143876,
+            "name": "collective-1.19.2-5.25",
+            "metadata": {
+              "sha1": "f74bc35dc7c1ede490126b42c461ff23cda32798",
+              "size": 187385,
+              "path": "mods/collective-1.19.2-5.25.jar",
+              "url": "/mods/342584/4143876/collective-1.19.2-5.25.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 345854,
+          "name": "Villager Names (Forge)",
+          "favorite": false,
+          "version": {
+            "id": 4074111,
+            "name": "villagernames_1.19.2-4.3",
+            "metadata": {
+              "sha1": "433e0d4c06ca84e6fb205bf2e22fe98fcf3d803d",
+              "size": 11661,
+              "path": "mods/villagernames_1.19.2-4.3.jar",
+              "url": "/mods/345854/4074111/villagernames_1.19.2-4.3.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 342584,
+              "name": "Collective (Forge)",
+              "gameEntityId": 342584,
+              "dependencyType": "required"
+            }
+          ],
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 228525,
+          "name": "Bookshelf",
+          "favorite": false,
+          "version": {
+            "id": 4153136,
+            "name": "Forge-1.19.2-16.2.16",
+            "metadata": {
+              "sha1": "08616b8f02ea6f69e11069fd97e26505ee019dab",
+              "size": 319021,
+              "path": "mods/Bookshelf-Forge-1.19.2-16.2.16.jar",
+              "url": "/mods/228525/4153136/Bookshelf-Forge-1.19.2-16.2.16.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 250419,
+          "name": "Enchantment Descriptions",
+          "favorite": false,
+          "version": {
+            "id": 4178477,
+            "name": "Forge-1.19.2-13.0.13",
+            "metadata": {
+              "sha1": "677f155b85071c38fa6aa3ca8253865c55aef00f",
+              "size": 63124,
+              "path": "mods/EnchantmentDescriptions-Forge-1.19.2-13.0.13.jar",
+              "url": "/mods/250419/4178477/EnchantmentDescriptions-Forge-1.19.2-13.0.13.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 228525,
+              "name": "Bookshelf",
+              "gameEntityId": 228525,
+              "dependencyType": "required"
+            }
+          ],
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 391187,
+          "name": "Enchant With Mob",
+          "favorite": false,
+          "version": {
+            "id": 4102968,
+            "name": "1.19.2-7.0.1",
+            "metadata": {
+              "sha1": "30ba118ab306019db836148ec10f8f92fec6e607",
+              "size": 448153,
+              "path": "mods/EnchantWithMob-1.19.2-7.0.1.jar",
+              "url": "/mods/391187/4102968/EnchantWithMob-1.19.2-7.0.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 331936,
+          "name": "Citadel",
+          "favorite": false,
+          "version": {
+            "id": 4132623,
+            "name": "citadel-2.1.1-1.19",
+            "metadata": {
+              "sha1": "904587a3fc3e885f5c953c1cc5d5d91aec64f3c2",
+              "size": 3054513,
+              "path": "mods/citadel-2.1.1-1.19.jar",
+              "url": "/mods/331936/4132623/citadel-2.1.1-1.19.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 426558,
+          "name": "Alex's Mobs",
+          "favorite": false,
+          "version": {
+            "id": 4159154,
+            "name": "alexsmobs-1.21.1",
+            "metadata": {
+              "sha1": "ce80c8aeed6faa497db2b917da51405c3f273bd8",
+              "size": 25655463,
+              "path": "mods/alexsmobs-1.21.1.jar",
+              "url": "/mods/426558/4159154/alexsmobs-1.21.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 331936,
+              "name": "Citadel",
+              "gameEntityId": 331936,
+              "dependencyType": "required"
+            }
+          ],
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "no_active",
+          "id": 309927,
+          "name": "Curios API (Forge)",
+          "favorite": false,
+          "version": {
+            "id": 3924518,
+            "name": "curios-forge-1.19.2-5.1.1.0",
+            "metadata": {
+              "sha1": "01e6a9428e77d6b397e1d5c51a693f152488db41",
+              "size": 269319,
+              "path": "mods/curios-forge-1.19.2-5.1.1.0.jar",
+              "url": "/mods/309927/3924518/curios-forge-1.19.2-5.1.1.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 276951,
+          "name": "Comforts (FabricForgeQuilt)",
+          "favorite": false,
+          "version": {
+            "id": 4105213,
+            "name": "comforts-forge-6.0.3+1.19.2",
+            "metadata": {
+              "sha1": "337c450f10ea369b76ef906d6af0f5c299e920f7",
+              "size": 325179,
+              "path": "mods/comforts-forge-6.0.3+1.19.2.jar",
+              "url": "/mods/276951/4105213/comforts-forge-6.0.3+1.19.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 318449,
+              "name": "Cardinal Components",
+              "gameEntityId": 318449,
+              "dependencyType": "required"
+            },
+            {
+              "gameType": "mod",
+              "id": 306612,
+              "name": "Fabric API",
+              "gameEntityId": 306612,
+              "dependencyType": "required"
+            }
+          ],
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "no_active",
+          "id": 450659,
+          "name": "Small Ships",
+          "favorite": false,
+          "version": {
+            "id": 3926824,
+            "name": "smallships-1.19.2-2.0.0-Alpha-0.4",
+            "metadata": {
+              "sha1": "32a0a0ad771c1e696f819a7dc2b64e1bde32e6f4",
+              "size": 2600969,
+              "path": "mods/smallships-1.19.2-2.0.0-Alpha-0.4.jar",
+              "url": "/mods/450659/3926824/smallships-1.19.2-2.0.0-Alpha-0.4.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "no_active",
+          "id": 257814,
+          "name": "CreativeCore",
+          "favorite": false,
+          "version": {
+            "id": 4121202,
+            "name": "_FORGE_v2.9.2_mc1.19.2",
+            "metadata": {
+              "sha1": "e97e41ad8c440f314209baf10c8793968d14ff27",
+              "size": 916979,
+              "path": "mods/CreativeCore_FORGE_v2.9.2_mc1.19.2.jar",
+              "url": "/mods/257814/4121202/CreativeCore_FORGE_v2.9.2_mc1.19.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "no_active",
+          "id": 266890,
+          "name": "PlayerRevive",
+          "favorite": false,
+          "version": {
+            "id": 4095245,
+            "name": "_FORGE_v2.0.14_mc1.19.2",
+            "metadata": {
+              "sha1": "752da48161d9cd64aaecb6d20902b3f4b94c7415",
+              "size": 5291957,
+              "path": "mods/PlayerRevive_FORGE_v2.0.14_mc1.19.2.jar",
+              "url": "/mods/266890/4095245/PlayerRevive_FORGE_v2.0.14_mc1.19.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 257814,
+              "name": "CreativeCore",
+              "gameEntityId": 257814,
+              "dependencyType": "required"
+            }
+          ],
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        }
+      ],
+      "resourcePacks": [],
+      "maps": [
+        {
+          "stateGameElement": "active",
+          "id": -16730285079900,
+          "name": "New World",
+          "favorite": false,
+          "version": {
+            "id": -16730285244300,
+            "name": "1.0",
+            "metadata": {
+              "folders": [
+                "New World"
+              ],
+              "size": 0,
+              "path": "saves/New World",
+              "url": "saves/New World"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        }
+      ],
+      "shaderpacks": [
+        {
+          "stateGameElement": "no_active",
+          "id": 322506,
+          "name": "BSL Shaders",
+          "favorite": false,
+          "version": {
+            "id": 4119558,
+            "name": "BSL v8.2.01",
+            "metadata": {
+              "sha1": "f59e9f141a6a1e5b163f664fd73c54e43e45604b",
+              "size": 921304,
+              "path": "shaderpacks/BSL_v8.2.01.zip",
+              "url": "/shaderpacks/322506/4119558/BSL_v8.2.01.zip"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 385587,
+          "name": "Complementary Shaders v4",
+          "favorite": false,
+          "version": {
+            "id": 3951170,
+            "name": "Complementary v4.6",
+            "metadata": {
+              "sha1": "a7e1f3094752a54de159a00ca2122d7b98371ea8",
+              "size": 3444959,
+              "path": "shaderpacks/ComplementaryShaders_v4.6.zip",
+              "url": "/shaderpacks/385587/3951170/ComplementaryShaders_v4.6.zip"
+            },
+            "available": false
+          },
+          "userInstall": false,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "no_active",
+          "id": -23461177739700,
+          "name": "Sildur's+Vibrant+Shaders+v1.41+Lite",
+          "favorite": false,
+          "version": {
+            "id": -23461178385400,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "37a856e9324f9ebf040eb469c3568c0d94b0a06a",
+              "size": 140678,
+              "path": "shaderpacks/Sildur's+Vibrant+Shaders+v1.41+Lite.zip",
+              "url": "shaderpacks/Sildur's+Vibrant+Shaders+v1.41+Lite.zip"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        }
+      ],
+      "gameVersionDTO": {
+        "id": 38,
+        "name": "1.19.2"
+      },
+      "minecraftVersionName": {
+        "id": 3384,
+        "name": "43.2.1"
+      },
+      "id": -263517933652100,
+      "name": "1.0",
+      "available": false,
+      "minecraftVersionTypes": [
+        {
+          "id": 1,
+          "name": "forge"
+        }
+      ]
+    },
+    "userInstall": false,
+    "populateStatus": false,
+    "available": false,
+    "parser": false,
+    "totalComments": 0
+  },
+  "source": "local_version_repo",
+  "jar": "1.19.2",
+  "skinVersion": true
+}
