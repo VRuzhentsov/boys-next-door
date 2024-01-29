@@ -167,6 +167,19 @@ services:
       - ./rcon/.env
     profiles: ['rcon']
 
+  vrising:
+    container_name: vrising-server
+    image: bjg96/vrising-server:latest
+    volumes:
+      - ./vrising:/data
+    ports:
+      - "27015:27015/udp"
+      - "27016:27016/udp"
+    restart: unless-stopped
+    env_file:
+      - ./vrising/.env
+    tty: true
+
 networks:
   boys-next-door-network:
     driver: bridge
