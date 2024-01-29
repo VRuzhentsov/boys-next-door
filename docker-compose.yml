@@ -31,13 +31,15 @@ services:
       - "30000:30000"
     environment:
       VIRTUAL_HOST: foundry.boys-next-door.win
+    restart: unless-stopped
+    stop_grace_period: 2m
     networks:
       - boys-next-door-network
 
   valheim:
     image: ghcr.io/lloesche/valheim-server
-    cap_add:
-      - sys_nice
+#    cap_add:
+#      - sys_nice
     volumes:
       - ${HOME}/valheim-server/config:/config
       - ${HOME}/valheim-server/data:/opt/valheim
@@ -46,12 +48,13 @@ services:
       - "9001:9001/tcp"
     env_file:
       - ${HOME}/valheim-server/valheim.env
-    restart: always
+    restart: unless-stopped
     stop_grace_period: 2m
 
   dis-bot:
     image: vruzhentsov/boys-next-door-dis-bot
-    restart: always
+    restart: unless-stopped
+    stop_grace_period: 2m
     ports:
       - "3000:3000"
     env_file:
@@ -116,6 +119,53 @@ services:
     volumes:
       # attach a directory relative to the directory containing this compose file
       - ~/mc-server/data:/data
+
+  vpn:
+    image: hwdsl2/ipsec-vpn-server
+    restart: always
+    env_file:
+      - ./vpn/.env
+    ports:
+      - "500:500/udp"
+      - "4500:4500/udp"
+    privileged: true
+    hostname: ipsec-vpn-server
+    container_name: ipsec-vpn-server
+    volumes:
+      - ./vpn/ikev2-vpn-data:/etc/ipsec.d
+      - /lib/modules:/lib/modules:ro
+
+  palworld:
+    image: thijsvanloef/palworld-server-docker:latest
+    restart: unless-stopped
+    stop_grace_period: 2m
+    container_name: palworld-server
+    ports:
+      - 8211:8211/udp
+      - 27015:27015/udp
+    env_file:
+      - ./vpn/.env
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - PORT=8211 # Optional but recommended
+      - PLAYERS=16 # Optional but recommended
+      - MULTITHREADING=false
+      - RCON_ENABLED=true
+      - RCON_PORT=25575
+      - COMMUNITY=false  # Enable this if you want your server to show up in the community servers tab, USE WITH SERVER_PASSWORD!
+      # Enable the environment variables below if you have COMMUNITY=true
+      # - SERVER_PASSWORD="worldofpals"
+    volumes:
+      - ./palworld:/palworld/
+      - ./palworld/logs:/home/steam/Steam/logs/'
+
+  palworld-rcon:
+    image: outdead/rcon:latest
+    entrypoint: ['/rcon', '-a', 'palworld:25575', '-p', '${PALWORLD_RCON_PASSWORD}']
+    env_file:
+      - ./rcon/.env
+    profiles: ['rcon']
 
 networks:
   boys-next-door-network:
