@@ -1,0 +1,5 @@
+version: "3.7"
+
+services:
+  palworld-rcon:
+    entrypoint: ['/rcon', '-a', 'palworld:25575', '-p', 'iamgay']
