@@ -14,7 +14,7 @@ services:
     environment:
       VIRTUAL_HOST: boys-next-door.win
     volumes:
-      - ~/nginx/static:/app
+      - ./nginx/static:/app
     networks:
       - boys-next-door-network
 
@@ -39,8 +39,8 @@ services:
       dockerfile: Dockerfile
     image: fvtt:3.0
     volumes:
-      - ~/foundry-old/app:/home/node/app
-      - ~/foundry-old/data:/home/node/data
+      - ./foundry-old/app:/home/node/app
+      - ./foundry-old/data:/home/node/data
     ports:
       - "30000:30001"
     environment:
@@ -58,10 +58,10 @@ services:
     restart: unless-stopped
     volumes:
       - type: bind
-        source: ~/foundry
+        source: foundry
         target: /data
     env_file:
-      - ~/foundry/.env
+      - ./foundry/.env
     ports:
       - target: 30000
         published: 30000
@@ -93,7 +93,28 @@ services:
     ports:
       - "3000:3000"
     env_file:
-      - ./dis-bot/.env
+      - dis-bot/.env
+    depends_on:
+      - lavalink
+
+  lavalink:
+    image: ghcr.io/lavalink-devs/lavalink:3-alpine # pin the image version to Lavalink v3
+    container_name: lavalink
+    restart: unless-stopped
+    environment:
+      - _JAVA_OPTIONS=-Xmx6G # set Java options here
+      - SERVER_PORT=2333 # set lavalink server port
+    env_file:
+      - .env
+    volumes:
+      - ./lavalink/lavalink-application.yml:/opt/Lavalink/application.yml # mount application.yml from the same directory or use environment variables
+      - ./lavalink/lava-plugins/:/opt/Lavalink/plugins/ # persist plugins between restarts, make sure to set the correct permissions (user: 322, group: 322)
+    networks:
+      - lavalink
+    expose:
+      - 2333 # lavalink exposes port 2333 to connect to for other containers (this is for documentation purposes only)
+    ports:
+      - 2333:2333 # you only need this if you want to make your lavalink accessible from outside of containers
 
   terraria-tmodloader:
     image: 'jacobsmile/tmodloader1.4:latest'
@@ -153,7 +174,7 @@ services:
     restart: unless-stopped
     volumes:
       # attach a directory relative to the directory containing this compose file
-      - ~/mc-server/data:/data
+      - ./mc-server/data:/data
 
   vpn:
     image: hwdsl2/ipsec-vpn-server
@@ -219,3 +240,6 @@ services:
 networks:
   boys-next-door-network:
     driver: bridge
+
+  lavalink: # create a lavalink network you can add other containers to, to give them access to Lavalink
+    name: lavalink

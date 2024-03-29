@@ -1,0 +1,7 @@
+[submodule "dis-bot"]
+	path = dis-bot
+	url = git@github.com:VRuzhentsov/boys-next-door-dis-bot.git
+
+[submodule "main-client-app"]
+	path = main-client-app
+	url = git@github.com:VRuzhentsov/boys-next-door-main-client-app.git
