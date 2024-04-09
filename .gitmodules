@@ -4,4 +4,4 @@
 
 [submodule "main-client-app"]
 	path = main-client-app
-	url = git@github.com:VRuzhentsov/boys-next-door-main-client-app.git
+	url = git@github.com:VRuzhentsov/main-client-app.git
