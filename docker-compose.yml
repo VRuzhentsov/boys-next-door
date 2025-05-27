@@ -254,6 +254,28 @@ services:
       - ./project-zomboid/config:/home/steam/Zomboid/
     tty: true
 
+  satisfactory:
+    container_name: 'satisfactory'
+    hostname: 'satisfactory'
+    image: 'wolveix/satisfactory-server:latest'
+    ports:
+      - '7777:7777/udp'
+      - '7777:7777/tcp'
+    volumes:
+      - './satisfactory:/config'
+    environment:
+      - MAXPLAYERS=10
+      - PGID=1000
+      - PUID=1000
+      - STEAMBETA=false
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+        reservations:
+          memory: 4G
+
 networks:
   boys-next-door-network:
     driver: bridge
