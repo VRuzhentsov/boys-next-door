@@ -261,6 +261,7 @@ services:
     ports:
       - '7777:7777/udp'
       - '7777:7777/tcp'
+      - '8888:8888/tcp'
     volumes:
       - './satisfactory:/config'
     environment:
@@ -276,6 +277,14 @@ services:
         reservations:
           memory: 4G
 
+  factorio:
+    image: factoriotools/factorio:stable-rootless
+    ports:
+      - "34197:34197/udp"
+      - "27015:27015/tcp"
+    volumes:
+      - ./factorio:/factorio
+
   jobs-watcher:
     image: ghcr.io/vruzhentsov/jobs-watcher:${IMAGE_TAG:-latest}
     container_name: jobs-watcher-app
@@ -283,8 +292,6 @@ services:
       - "5000:5000"
     env_file:
       - .env
-    environment:
-      - PYTHONPATH=/app
     healthcheck:
       test: [ "CMD", "curl", "-f", "http://localhost:5000/health" ]
       interval: 30s
