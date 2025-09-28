@@ -259,9 +259,9 @@ services:
     hostname: 'satisfactory'
     image: 'wolveix/satisfactory-server:latest'
     ports:
-      - '7777:7777/udp'
-      - '7777:7777/tcp'
-      - '8888:8888/tcp'
+      - '0.0.0.0:7777:7777/udp'
+      - '0.0.0.0:7777:7777/tcp'
+      - '0.0.0.0:8888:8888/tcp'
     volumes:
       - './satisfactory:/config'
     environment:
